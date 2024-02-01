@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://bookngotravel.ph/sitemap.xml
