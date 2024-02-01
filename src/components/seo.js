@@ -2,8 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup apps landing page',
-  author = 'RedQ, Inc',
+  description = 'Official website of Book n Go (BNG) Travel & Tours Services Inc.',
+  author = 'BNG Travel & Tours Services Inc.',
   meta,
   title = 'startup landing title',
 }) {
