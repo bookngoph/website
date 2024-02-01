@@ -83,7 +83,7 @@ export default function Banner() {
             <Text sx={styles.sponsorTitle}>Affiliations:</Text>
             <Box sx={styles.sponsorBox.sponsor}>
               {data.map((item, index) => (
-                <Link path={item.path} key={`client-key${index}`}>
+                <Link href={item.path} key={`client-key${index}`}>
                   <Image src={item.image} alt={item.title} />
                 </Link>
               ))}
