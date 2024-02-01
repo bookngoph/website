@@ -19,7 +19,7 @@ export default function Header({ className }) {
             {menuItems.map(({ path, label }, i) => (
               <Link
                 activeClass="active"
-                to={path}
+                href={path}
                 spy={true}
                 smooth={true}
                 offset={-70}
@@ -83,7 +83,7 @@ const styles = {
       color: '#000000',
       boxShadow: '0 1px 2px rgba(0, 0, 0, 0.06)',
       py: 3,
-      'nev > a': {
+      'nav > a': {
         color: 'text',
       },
       '.donate__btn': {
@@ -114,6 +114,8 @@ const styles = {
       px: 25,
       cursor: 'pointer',
       lineHeight: '1.2',
+      color: 'white',
+      textDecoration: 'none',
       '&.active': {
         color: 'secondary',
       },

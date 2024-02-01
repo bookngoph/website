@@ -1,14 +1,14 @@
 export default [
   {
-    path: 'home',
+    path: '#home',
     label: 'Home',
   },
   {
-    path: 'package',
+    path: '#package',
     label: 'Packages',
   },
   {
-    path: 'contact',
+    path: '#contact',
     label: 'Contact',
   },
   // {
